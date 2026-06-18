@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@import "tailwindcss";
+
+
+:root {
+  --bg: Aliceblue;
+  --text: #111111;
+  --card: #f8f8f8;
+  --accent: #D4AF37;
+}
+
+.dark {
+  --bg: #0A0A0A;
+  --text: #ffffff;
+  --card: #111111;
+  --accent: #D4AF37;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  overflow-x: hidden;
+  transition: all 0.3s ease;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  @apply bg-white text-black transition-colors duration-300;
+}
+
+/* Dark mode support */
+.dark body {
+  @apply bg-[#0a0a0a] text-white;
+}
+
