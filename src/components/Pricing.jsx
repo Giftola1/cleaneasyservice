@@ -63,7 +63,7 @@ const plans = [
 
 function Pricing() {
   return (
-    <section className="py-28 bg-white dark:bg-[#0A0A0A]">
+    <section className="py-28 bg-white">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* HERO */}
@@ -72,7 +72,7 @@ function Pricing() {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-4xl md:text-6xl font-bold leading-tight text-black dark:text-white"
+            className="text-4xl md:text-6xl font-bold leading-tight text-black "
           >
             Our <span className="text-[#D4AF37]">Services</span>
           </motion.h1>
@@ -81,7 +81,7 @@ function Pricing() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.3 }}
-            className="text-gray-600 dark:text-gray-400 mt-6 text-lg"
+            className="text-gray-600 mt-6 text-lg"
           >
           Our simple process ensures top-quality cleaning every time. Just book, relax, and let us handle the rest with attention to every detail!
           </motion.p>
@@ -103,12 +103,12 @@ function Pricing() {
                 duration-500
 
                 bg-white
-                dark:bg-white/[0.03]
+                
 
                 ${
                   plan.featured
                     ? "border-[#D4AF37]"
-                    : "border-gray-200 dark:border-white/10"
+                    : "border-gray-200 "
                 }
 
                 hover:border-[#D4AF37]
@@ -122,14 +122,14 @@ function Pricing() {
               )}
               
 
-              <h3 className="text-2xl font-semibold text-black dark:text-white">
+              <h3 className="text-2xl font-semibold text-black ">
                 {plan.title}
               </h3>
 
               {/* <div className="mt-4 text-4xl font-bold text-[#D4AF37]">
                 {plan.price}
               </div> */}
-               <h3 className=" text-black dark:text-white pt-6">
+               <h3 className=" text-black  pt-6">
                 {plan.description}
               </h3>
 
@@ -138,7 +138,7 @@ function Pricing() {
                 {plan.features.map((feature) => (
                   <li
                     key={feature}
-                    className="flex items-center gap-3 text-gray-600 dark:text-gray-300"
+                    className="flex items-center gap-3 text-gray-900"
                   >
                     <FaCheck className="text-[#D4AF37]" />
                     {feature}
@@ -155,10 +155,10 @@ function Pricing() {
 
                   border
                   border-gray-200
-                  dark:border-white/10
+                 
 
                   text-black
-                  dark:text-white
+                  
 
                   transition-all
                   duration-300

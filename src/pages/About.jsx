@@ -107,7 +107,7 @@ function About() {
             bg-[#F8F8F8]
             border
             border-gray-200
-            dark:border-white/10
+           
           "
         >
           <h2 className="text-4xl font-bold text-black">
@@ -151,7 +151,7 @@ function About() {
               // hover:shadow-[0_0_30px_rgba(212,175,55,0.2)]
             "
           >
-            <h3 className="text-2xl font-semibold text-black dark:text-white">
+            <h3 className="text-2xl font-semibold text-black">
               {plan.title}
             </h3>
 

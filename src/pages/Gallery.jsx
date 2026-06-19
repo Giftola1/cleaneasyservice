@@ -31,7 +31,7 @@ function Gallery() {
     <>
       <Navbar />
 
-      <section className="py-28 bg-white dark:bg-[#0A0A0A] min-h-screen">
+      <section className="py-28 bg-white min-h-screen">
         <div className="max-w-7xl mx-auto px-6">
 
           {/* HEADER */}
@@ -40,11 +40,11 @@ function Gallery() {
               Gallery
             </p>
 
-            <h1 className="text-4xl md:text-5xl font-bold mt-4 text-black dark:text-white">
+            <h1 className="text-4xl md:text-5xl font-bold mt-4 text-black">
               Our Recent Work
             </h1>
 
-            <p className="text-gray-600 dark:text-gray-400 mt-4">
+            <p className="text-gray-600 -gray-400 mt-4">
               Explore some of our recent cleaning and installation projects.
             </p>
           </div>

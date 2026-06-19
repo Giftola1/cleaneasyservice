@@ -124,7 +124,6 @@ with a bright, spotless image.
               bottom-6
               left-6
               bg-white/90
-              dark:bg-black/80
               backdrop-blur-md
               px-6
               py-4
@@ -136,7 +135,7 @@ with a bright, spotless image.
               99+
             </h3>
 
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               Successful Projects
             </p>
           </div>
@@ -151,7 +150,7 @@ with a bright, spotless image.
               gap-3
               text-sm
               text-gray-600
-              dark:text-gray-400
+              
             "
           >
             <span className="text-[#D4AF37] text-lg">
