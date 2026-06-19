@@ -59,11 +59,11 @@ function FeatureCard() {
               group
 
               bg-white
-              dark:bg-white/[0.03]
+              
 
               border
               border-gray-200
-              dark:border-white/10
+              
 
               rounded-2xl
 
@@ -127,7 +127,7 @@ function FeatureCard() {
                 text-center
 
                 text-black
-                dark:text-white
+                
 
                 mb-4
               "
@@ -140,7 +140,7 @@ function FeatureCard() {
                 text-center
 
                 text-gray-600
-                dark:text-gray-400
+               
 
                 leading-relaxed
               "

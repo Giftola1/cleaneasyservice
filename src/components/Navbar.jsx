@@ -18,15 +18,9 @@ function Navbar() {
     { name: "Contact Us", href: "/contact" },
   ];
 
-  const [darkMode, setDarkMode] = useState(false);
+  
 
-useEffect(() => {
-  if (darkMode) {
-    document.documentElement.classList.add("dark");
-  } else {
-    document.documentElement.classList.remove("dark");
-  }
-}, [darkMode]);
+
 
   return (
     <>
@@ -41,7 +35,7 @@ useEffect(() => {
     border-b
     border-gray-200
     bg-white/70
-    dark:bg-black/20
+ 
   ">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           {/* Logo */}
@@ -74,22 +68,6 @@ useEffect(() => {
 
 <a href="/contact">Book Now</a>            
           </button>
-          {/* <button
-  onClick={() => setDarkMode(!darkMode)}
-  className="
-    border
-    border-[#D4AF37]
-    px-4
-    py-2
-    rounded-full
-    text-sm
-    hover:bg-[#D4AF37]
-    hover:text-black
-    transition
-  "
->
-  {darkMode ? "☀️" : "🌙"}
-</button> */}
 
 
           {/* Mobile Menu Button */}

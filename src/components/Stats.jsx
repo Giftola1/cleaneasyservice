@@ -39,7 +39,7 @@ function Stats() {
               font-bold
               leading-tight
               text-black
-              dark:text-white
+             
             "
           >
             Clean Spaces.
@@ -74,7 +74,7 @@ function Stats() {
 
                   border
                   border-gray-200
-                  dark:border-white/10
+                  :border-white/10
 
                   rounded-xl
 

@@ -62,7 +62,7 @@ function ContactForm() {
         py-28
         px-6
         bg-aliceblue
-        dark:bg-[#0A0A0A]
+        
       "
     >
       <div className="max-w-4xl mx-auto">
@@ -88,7 +88,7 @@ function ContactForm() {
               font-bold
               mt-4
               text-black
-              dark:text-white
+              
             "
           >
             Let's Discuss Your Project
@@ -97,7 +97,7 @@ function ContactForm() {
           <p
             className="
               text-gray-600
-              dark:text-gray-400
+             
               mt-4
             "
           >
@@ -114,11 +114,11 @@ function ContactForm() {
           viewport={{ once: true }}
           className="
             bg-gray-50
-            dark:bg-white/[0.03]
+            
 
             border
             border-gray-200
-            dark:border-white/10
+           
 
             backdrop-blur-md
             rounded-3xl
@@ -138,11 +138,11 @@ function ContactForm() {
               className="
                 bg-white
                 text-black
-                dark:bg-transparent
+              
 
                 border
                 border-gray-300
-                dark:border-white/10
+             
 
                 rounded-xl
                 p-4
@@ -163,11 +163,11 @@ function ContactForm() {
               required
               className="
                 bg-white
-                dark:bg-transparent
+              
 
                 border
                 border-gray-300
-                dark:border-white/10
+               
 
                 rounded-xl
                 p-4
@@ -188,11 +188,10 @@ function ContactForm() {
               required
               className="
                 bg-white
-                dark:bg-transparent
-
+               
                 border
                 border-gray-300
-                dark:border-white/10
+              
 
                 rounded-xl
                 p-4
@@ -213,11 +212,11 @@ function ContactForm() {
               required
               className="
                 bg-white
-                dark:bg-transparent
+               
 
                 border
                 border-gray-300
-                dark:border-white/10
+               
 
                 rounded-xl
                 p-4
@@ -242,11 +241,10 @@ function ContactForm() {
               mt-6
 
               bg-white
-              dark:bg-transparent
-
+            
               border
               border-gray-300
-              dark:border-white/10
+             
 
               rounded-xl
               p-4

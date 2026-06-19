@@ -6,11 +6,11 @@ function Footer() {
     <footer
       className="
         bg-white
-        dark:bg-[#070707]
+       
 
         border-t
         border-gray-200
-        dark:border-white/10
+      
 
         py-16
       "
@@ -30,7 +30,7 @@ function Footer() {
             <p
               className="
                 text-gray-600
-                dark:text-gray-400
+                
 
                 mt-4
                 leading-relaxed
@@ -51,7 +51,7 @@ function Footer() {
                 mb-4
 
                 text-black
-                dark:text-white
+               
               "
             >
               Quick Links
@@ -59,19 +59,19 @@ function Footer() {
 
             <ul className="space-y-3">
               <li>
-                <a className="text-gray-600 dark:text-gray-400 hover:text-[#D4AF37]" href="/">
+                <a className="text-gray-600 :text-gray-400 hover:text-[#D4AF37]" href="/">
                   Home
                 </a>
               </li>
 
               <li>
-                <a className="text-gray-600 dark:text-gray-400 hover:text-[#D4AF37]" href="/about">
+                <a className="text-gray-600 hover:text-[#D4AF37]" href="/about">
                   About Us
                 </a>
               </li>
 
               <li>
-                <a className="text-gray-600 dark:text-gray-400 hover:text-[#D4AF37]" href="/price">
+                <a className="text-gray-600  hover:text-[#D4AF37]" href="/price">
                   Service
                 </a>
               </li>
