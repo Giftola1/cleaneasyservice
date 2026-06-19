@@ -25,7 +25,7 @@ function Reviews() {
       className="
         py-28
         bg-white
-        dark:bg-[#0A0A0A]
+        
       "
     >
       <div className="max-w-7xl mx-auto px-6">
@@ -44,7 +44,7 @@ function Reviews() {
               mt-4
 
               text-black
-              dark:text-white
+             
             "
           >
             What Our Clients Say
@@ -52,8 +52,8 @@ function Reviews() {
 
           <p
             className="
-              text-gray-600
-              dark:text-gray-400
+              text-gray-900
+              
               mt-4
             "
           >
@@ -71,11 +71,11 @@ function Reviews() {
                 group
 
                 bg-gray-50
-                dark:bg-white/[0.03]
+             
 
                 border
                 border-gray-200
-                dark:border-white/10
+                
 
                 rounded-3xl
                 p-8
@@ -103,7 +103,7 @@ function Reviews() {
                   leading-relaxed
 
                   text-gray-600
-                  dark:text-gray-300
+                
                 "
               >
                 "{review.review}"
@@ -115,7 +115,7 @@ function Reviews() {
                   className="
                     font-semibold
                     text-black
-                    dark:text-white
+                   
                   "
                 >
                   {review.name}
@@ -135,11 +135,11 @@ function Reviews() {
             mt-16
 
             bg-gray-50
-            dark:bg-white/[0.03]
+           
 
             border
             border-gray-200
-            dark:border-white/10
+            
 
             rounded-3xl
 
@@ -161,7 +161,7 @@ function Reviews() {
               font-bold
 
               text-black
-              dark:text-white
+             
             "
           >
             5.0 Average Rating
@@ -172,7 +172,7 @@ function Reviews() {
               mt-3
 
               text-gray-600
-              dark:text-gray-400
+             
             "
           >
             Based on customer satisfaction and quality service.

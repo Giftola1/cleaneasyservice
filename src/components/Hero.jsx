@@ -43,7 +43,7 @@ function Hero() {
               mt-6
               text-lg
               text-gray-600
-              dark:text-gray-400
+             
               leading-relaxed
               max-w-xl
             "

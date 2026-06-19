@@ -30,11 +30,11 @@ function About() {
       {/* HERO SECTION */}
       <div className="mt-24 max-w-7xl mx-auto px-6 py-18 grid md:grid-cols-2 gap-16 items-center">
         <div className="lg:w-full">
-          <h2 className="text-5xl font-bold text-black dark:text-white">
+          <h2 className="text-5xl font-bold text-black">
             Elevating Spaces Through Quality Service
           </h2>
 
-          <p className="text-gray-700 dark:text-gray-300 py-8">
+          <p className="text-gray-900 py-8">
             We are a professional cleaning and installation company dedicated to
             delivering reliable, high-quality services for homes, offices, and
             commercial properties across London and Hertfordshire.
@@ -56,7 +56,7 @@ function About() {
       </div>
 
       {/* INTRO TEXT */}
-      <div className="text-center text-xl font-bold py-24 px-10 text-black dark:text-white">
+      <div className="text-center text-xl font-bold py-24 px-10 text-black">
         <p>
           At Clean Easy Service, we believe that every space deserves the
           highest standard of care. From professional cleaning services to
@@ -77,18 +77,17 @@ function About() {
           className="
             rounded-3xl
             p-8
-            bg-[#F8F8F8]
-            dark:bg-white/[0.08]
+            bg-aliceblue
             border
             border-gray-200
-            dark:border-white/10
+           
           "
         >
-          <h2 className="text-4xl font-bold text-black dark:text-white">
+          <h2 className="text-4xl font-bold text-black">
             Who We Are
           </h2>
 
-          <p className="text-gray-700 dark:text-gray-300 mt-6">
+          <p className="text-gray-900  mt-6">
             We are a professional cleaning and installation company serving
             homes, offices, and commercial properties across London and
             Hertfordshire.
@@ -106,17 +105,16 @@ function About() {
             rounded-3xl
             p-8
             bg-[#F8F8F8]
-            dark:bg-white/[0.08]
             border
             border-gray-200
             dark:border-white/10
           "
         >
-          <h2 className="text-4xl font-bold text-black dark:text-white">
+          <h2 className="text-4xl font-bold text-black">
             Our Mission
           </h2>
 
-          <p className="text-gray-700 dark:text-gray-300 mt-6">
+          <p className="text-gray-700  mt-6">
             Our mission is to provide dependable cleaning and installation
             services that improve the comfort, appearance, and functionality of
             every space we work in.
@@ -140,10 +138,9 @@ function About() {
               border
 
               bg-white
-              dark:bg-white/[0.03]
-
+              
               border-gray-200
-              dark:border-white/10
+             
 
               transition-all
               duration-500
@@ -159,7 +156,7 @@ function About() {
             </h3>
 
             <div className="mt-8">
-              <p className="text-gray-700 dark:text-gray-300 flex items-start gap-3">
+              <p className="text-gray-900flex items-start gap-3">
                 <FaCheck className="text-[#D4AF37] mt-1 flex-shrink-0" />
                 {plan.description}
               </p>

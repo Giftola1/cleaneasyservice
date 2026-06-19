@@ -59,26 +59,26 @@ function Footer() {
 
             <ul className="space-y-3">
               <li>
-                <a className="text-gray-600 :text-gray-400 hover:text-[#D4AF37]" href="/">
+                <a className="text-gray-600 :text-gray-900 hover:text-[#D4AF37] " href="/">
                   Home
                 </a>
               </li>
 
               <li>
-                <a className="text-gray-600 hover:text-[#D4AF37]" href="/about">
+                <a className="text-gray-900 hover:text-[#D4AF37]" href="/about">
                   About Us
                 </a>
               </li>
 
               <li>
-                <a className="text-gray-600  hover:text-[#D4AF37]" href="/price">
+                <a className="text-gray-900  hover:text-[#D4AF37]" href="/price">
                   Service
                 </a>
               </li>
             </ul>
 
             {/* SOCIALS */}
-            <div className="flex gap-4 mt-6 text-xl text-gray-600 dark:text-gray-400">
+            <div className="flex gap-4 mt-6 text-xl text-gray-600">
               <a
                 href="https://www.facebook.com/share/1BW7q5KqVo/?mibextid=wwXIfr"
                 target="_blank"
@@ -101,11 +101,11 @@ function Footer() {
 
           {/* CONTACT */}
           <div>
-            <h3 className="font-semibold mb-4 text-black dark:text-white">
+            <h3 className="font-semibold mb-4 text-black">
               Contact
             </h3>
 
-            <ul className="space-y-3 text-gray-600 dark:text-gray-400">
+            <ul className="space-y-3 text-gray-900 ">
               <li>07867815449</li>
               <li>Cleaneasyservicess@gmail.com</li>
               <li>Hatfield, Hertfordshire</li>
@@ -114,11 +114,11 @@ function Footer() {
 
           {/* HOURS */}
           <div>
-            <h3 className="font-semibold mb-4 text-black dark:text-white">
+            <h3 className="font-semibold mb-4 text-black">
               Business Hours
             </h3>
 
-            <ul className="space-y-3 text-gray-600 dark:text-gray-400">
+            <ul className="space-y-3 text-gray-600">
               <li>Monday - Saturday</li>
               <li>8:00 AM - 6:00 PM</li>
               <li>Sunday - Closed</li>
@@ -132,7 +132,7 @@ function Footer() {
           className="
             border-t
             border-gray-200
-            dark:border-white/10
+       
 
             mt-12
             pt-6
@@ -140,7 +140,7 @@ function Footer() {
             text-center
 
             text-gray-500
-            dark:text-gray-500
+            
           "
         >
           © 2026 CleanEasyService. All Rights Reserved.

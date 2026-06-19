@@ -8,7 +8,7 @@ function Service() {
       className="
         py-18
         bg-white
-        dark:bg-[#0A0A0A]
+        
       "
     >
       <div className="max-w-7xl mx-auto px-6">
@@ -34,7 +34,7 @@ function Service() {
               font-bold
               leading-tight
               text-black
-              dark:text-white
+              
             "
           >
             Why Work With Us?
@@ -43,7 +43,7 @@ function Service() {
           <p
             className="
               text-gray-600
-              dark:text-gray-400
+            
               mt-6
               max-w-3xl
               mx-auto

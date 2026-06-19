@@ -16,7 +16,7 @@ function Stats() {
       className="
         py-28
         bg-white
-        dark:bg-[#0A0A0A]
+        
       "
     >
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
@@ -50,7 +50,6 @@ function Stats() {
           <p
             className="
               text-gray-600
-              dark:text-gray-400
               mt-6
               leading-relaxed
             "
@@ -70,7 +69,7 @@ function Stats() {
                 key={badge}
                 className="
                   bg-gray-50
-                  dark:bg-white/[0.03]
+                  
 
                   border
                   border-gray-200
@@ -84,7 +83,7 @@ function Stats() {
                   text-center
 
                   text-gray-600
-                  dark:text-gray-400
+                  
 
                   transition-all
                   duration-300
@@ -181,13 +180,13 @@ function Stats() {
             <div
               className="
                 bg-white/90
-                dark:bg-black/70
+               
 
                 backdrop-blur-md
 
                 border
                 border-gray-200
-                dark:border-white/10
+              
 
                 rounded-2xl
 
@@ -208,7 +207,7 @@ function Stats() {
                   className="
                     text-xs
                     text-gray-600
-                    dark:text-gray-400
+                  
                   "
                 >
                   Houses Cleaned
@@ -224,7 +223,7 @@ function Stats() {
                   className="
                     text-xs
                     text-gray-600
-                    dark:text-gray-400
+                    
                   "
                 >
                   TVs Installed
@@ -240,7 +239,7 @@ function Stats() {
                   className="
                     text-xs
                     text-gray-600
-                    dark:text-gray-400
+                   
                   "
                 >
                   Satisfaction
