@@ -71,6 +71,7 @@ with a bright, spotless image.
                 font-semibold
                 text-center
                 hover:scale-105
+                 active:scale-95
                 transition
               "
             >
@@ -88,7 +89,9 @@ with a bright, spotless image.
                 rounded-full
                 text-center
                 hover:bg-[#D4AF37]
+                active:bg-[#D4AF37]
                 hover:text-black
+                active:text-black
                 transition
               "
             >

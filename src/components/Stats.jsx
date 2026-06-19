@@ -92,6 +92,11 @@ function Stats() {
                   hover:text-[#D4AF37]
                   hover:-translate-y-2
                   hover:shadow-lg
+
+                  active:border-[#D4AF37]
+                  active:text-[#D4AF37]
+                  active:-translate-y-2
+                  active:shadow-lg
                 "
               >
                 {badge}
@@ -115,7 +120,7 @@ function Stats() {
 
                 hover:bg-[#D4AF37]
                 hover:text-black
-
+                 active:scale-95
                 transition
               "
             >

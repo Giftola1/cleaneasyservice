@@ -73,6 +73,8 @@ function Gallery() {
                     duration-500
 
                     group-hover:scale-110
+
+                    group-active:scale-110
                   "
                 />
               </div>

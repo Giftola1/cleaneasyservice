@@ -113,6 +113,9 @@ function Pricing() {
 
                 hover:border-[#D4AF37]
                 hover:shadow-[0_20px_50px_rgba(212,175,55,0.2)]
+
+                active:border-[#D4AF37]
+                active:shadow-[0_20px_50px_rgba(212,175,55,0.2)]
               `}
             >
               {plan.featured && (
@@ -166,6 +169,11 @@ function Pricing() {
                   group-hover:bg-[#D4AF37]
                   group-hover:text-black
                   group-hover:border-[#D4AF37]
+                  
+                  group-active:scale-95
+                    group-active:bg-[#D4AF37]
+                  group-active:text-black
+                  group-active:border-[#D4AF37]
                 "
               >
                 Book Now

@@ -85,6 +85,12 @@ function FeatureCard() {
               hover:border-[#D4AF37]
 
               hover:shadow-[0_20px_50px_rgba(212,175,55,0.25)]
+              active:-translate-y-4
+              active:scale-105
+
+              active:border-[#D4AF37]
+
+              active:shadow-[0_20px_50px_rgba(212,175,55,0.25)]
             "
           >
             <div

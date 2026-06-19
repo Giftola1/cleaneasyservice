@@ -147,7 +147,12 @@ function About() {
 
               hover:scale-105
               hover:shadow-[0_0_40px_rgba(168,85,247,0.4)]
-              hover:border-[#D4AF37]
+              :border-[#D4AF37]
+
+              active:scale-105
+              active:shadow-[0_0_40px_rgba(168,85,247,0.4)]
+              active:border-[#D4AF37]
+          
               // hover:shadow-[0_0_30px_rgba(212,175,55,0.2)]
             "
           >

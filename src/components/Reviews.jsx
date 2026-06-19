@@ -87,6 +87,11 @@ function Reviews() {
                 hover:-translate-y-3
 
                 hover:shadow-[0_20px_50px_rgba(212,175,55,0.15)]
+
+                active:border-[#D4AF37]
+                active:-translate-y-3
+
+                active:shadow-[0_20px_50px_rgba(212,175,55,0.15)]
               "
             >
               {/* Stars */}
@@ -196,6 +201,7 @@ function Reviews() {
               duration-300
 
               hover:scale-105
+               active:scale-95
             "
           >
             <a
@@ -209,6 +215,9 @@ function Reviews() {
     rounded-full
     hover:bg-[#D4AF37]
     hover:text-black
+
+    active:bg-[#D4AF37]
+    active:text-black
     transition
   "
 >

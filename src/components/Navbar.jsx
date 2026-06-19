@@ -56,7 +56,7 @@ function Navbar() {
               <a
                 key={link.name}
                 href={link.href}
-                className="text-sm uppercase tracking-wider hover:text-[#D4AF37] transition"
+                className="text-sm uppercase tracking-wider hover:text-[#D4AF37] active:text-[#D4AF37] transition"
               >
                 {link.name}
               </a>
@@ -64,7 +64,7 @@ function Navbar() {
           </div>
 
           {/* Desktop Button */}
-          <button className="hidden md:block bg-[#D4AF37] text-black px-5 py-2 rounded-full font-semibold hover:scale-105 transition">
+          <button className="hidden md:block bg-[#D4AF37] text-black px-5 py-2 rounded-full font-semibold hover:scale-105  active:scale-95 transition">
 
 <a href="/contact">Book Now</a>            
           </button>
@@ -118,7 +118,7 @@ function Navbar() {
                   transition={{
                     delay: index * 0.1,
                   }}
-                  className="text-5xl font-semibold py-5 hover:text-[#D4AF37] transition"
+                  className="text-5xl font-semibold py-5 :text-[#D4AF37] transition"
                 >
                   {link.name}
                 </motion.a>

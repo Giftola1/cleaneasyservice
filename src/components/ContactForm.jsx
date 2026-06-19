@@ -276,6 +276,8 @@ function ContactForm() {
               duration-300
 
               hover:scale-105
+              active:scale-95
+
             "
           >
             Send Message
